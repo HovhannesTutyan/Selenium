@@ -55,8 +55,27 @@ class GalleriesLocators:
     _galleries_view_normal={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/div[1]/div[4]/div[2]/div/a"}
     _galleries_view_grid={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/div[1]/div[4]/div[2]/ul/li[2]/a"}
     _galleri_title_edit={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/span/a"}
-    _galleri_name_input={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[1]/form/input"}
-    _galleri_name_input_confirm={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[1]/form/div/a[1]"}
+    _galleri_title_input={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[1]/form/input"}
+    _galleri_title_input_confirm={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[1]/form/div/a[1]"}
+    _galleri_title_input_cancel={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[1]/td[2]/div[1]/form/div/a[2]"}
+    _galleri_desc_edit={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[3]/a"}
+    _galleri_desc_input={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[4]/textarea"}
+    _galleri_desc_confirm={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[4]/div/a[1]"}
+    _galleri_desc_cancel={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[4]/div/a[2]"}
+    _customize_galleri={"by":By.XPATH,"value":"/html/body/form/div[3]/div[2]/div[3]/table/tbody/tr[4]/td[1]/div[2]/a[1]"}
+    _manage_galleri={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[1]/div[2]/a[2]"}
+    _embed_galleri={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[1]/div[2]/a[3]"}
+    _more_actions={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[1]/div[2]/a[4]"}
+    _more_actions_duplicate={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[1]/div[2]/div/div/ul/li[1]"}
+    _more_actions_reorder={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[1]/div[2]/div/div/ul/li[2]"}
+    _more_actions_download={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[1]/td[1]/div[2]/div/div/ul/li[5]"}
+    _more_actions_delete={"by":By.LINK_TEXT,"value":"Delete gallery"}
+    _gallery_tag={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[7]/a"}
+    _gallery_tag_input={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[7]/div[2]/div[1]/div"}
+
+
+
+
 
 
 
