@@ -72,6 +72,19 @@ class GalleriesLocators:
     _more_actions_delete={"by":By.LINK_TEXT,"value":"Delete gallery"}
     _gallery_tag={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[7]/a"}
     _gallery_tag_input={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[7]/div[2]/div[1]/div"}
+    _confirm_tag_input={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[7]/div[2]/div[1]/div/p/span[2]"}
+    _gallery_tag_input_apply={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[4]/td[2]/div[7]/div[2]/div[2]/a"}
+    _gallery_items_manage={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[1]/td[3]/div/div[2]"}
+    _gallery_items_manage_checkbox={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[2]/td/div[2]/div[1]/div[1]/div/label/i"}
+    _remove_selected={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[2]/td/div[2]/div[1]/div[1]/button[1]/b"}
+    _delete_selected={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[2]/td/div[2]/div[1]/div[1]/button[2]/b"}
+    _gallery_items_item_checkbox={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[2]/td/div[2]/div[2]/ul/li[1]/div[1]/label/i"}
+    _gallery_items_item_view={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[2]/td/div[2]/div[2]/ul/li[1]/div[3]/a"}
+    _gallery_items_item_download={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[2]/td/div[2]/div[2]/ul/li[1]/div[4]/a[1]"}
+    _gallery_items_item_share={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[2]/td/div[2]/div[2]/ul/li[1]/div[4]/a[2]/i"}
+    _gallery_items_item_remove={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[2]/td/div[2]/div[2]/ul/li[1]/div[4]/a[3]/i"}
+    _gallery_items_add_files={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[2]/td/div[2]/div[1]/a[1]"}
+    _gallery_items_open_in_assets={"by":By.XPATH,"value":"/html/body/div[1]/div[2]/div[3]/table/tbody/tr[2]/td/div[2]/div[1]/a[2]"}
 
 
 
